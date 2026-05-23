@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Categories>
+  <Category name="Интеграция приложений">
+    <Category name="Word">
+      <Block name="Форматировать Word по шаблону" />
+    </Category>
+  </Category>
+</Categories>
