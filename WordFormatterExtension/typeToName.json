@@ -1,0 +1,30 @@
+{
+  "string": {
+    "display_name": "Строка",
+    "default_control": "textbox",
+    "editable": true
+  },
+  "int": {
+    "display_name": "Целое число",
+    "default_control": "numeric",
+    "editable": true,
+    "min": 1,
+    "max": 72
+  },
+  "dict": {
+    "display_name": "Словарь",
+    "default_control": "json_editor",
+    "editable": true,
+    "placeholder": "{\"ключ\": \"значение\"}"
+  },
+  "bool": {
+    "display_name": "Булево значение",
+    "default_control": "checkbox",
+    "editable": true
+  },
+  "list": {
+    "display_name": "Список",
+    "default_control": "list_editor",
+    "editable": true
+  }
+}

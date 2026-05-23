@@ -1,0 +1,18 @@
+{
+  "imports": [
+    "import os",
+    "import re",
+    "import sys",
+    "import win32com.client",
+    "from win32com.client import constants"
+  ],
+  "dependencies": {
+    "pywin32": {
+      "version": ">=305",
+      "required": true,
+      "pip_name": "pywin32"
+    }
+  },
+  "python_version": ">=3.7",
+  "description": "Блок для автоматического форматирования Word-документов"
+}
