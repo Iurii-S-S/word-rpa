@@ -1,0 +1,45 @@
+{
+  "name": "Форматировать Word по шаблону",
+  "category": "Интеграция приложений/Word",
+  "icon": "📄",
+  "parameters": [
+    {
+      "name": "input_path",
+      "display_name": "Путь к исходному файлу",
+      "type": "string",
+      "required": true,
+      "description": "Полный путь к .docx файлу"
+    },
+    {
+      "name": "output_path",
+      "display_name": "Путь для сохранения результата",
+      "type": "string",
+      "required": false,
+      "description": "Если не указан, файл будет перезаписан"
+    },
+    {
+      "name": "font_name",
+      "display_name": "Название шрифта",
+      "type": "string",
+      "required": false,
+      "default": "Calibri",
+      "description": "Основной шрифт документа"
+    },
+    {
+      "name": "font_size",
+      "display_name": "Размер шрифта",
+      "type": "int",
+      "required": false,
+      "default": 14,
+      "description": "Размер шрифта в пунктах"
+    },
+    {
+      "name": "replacements",
+      "display_name": "Замена плейсхолдеров",
+      "type": "dict",
+      "required": false,
+      "default": {},
+      "description": "Словарь вида {\"ключ\": \"значение\"} для замены {{ключ}}"
+    }
+  ]
+}
